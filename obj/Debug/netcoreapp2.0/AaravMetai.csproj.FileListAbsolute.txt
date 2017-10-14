@@ -1,0 +1,10 @@
+C:\temp\AaravMetai\bin\Debug\netcoreapp2.0\AaravMetai.deps.json
+C:\temp\AaravMetai\bin\Debug\netcoreapp2.0\AaravMetai.runtimeconfig.json
+C:\temp\AaravMetai\bin\Debug\netcoreapp2.0\AaravMetai.runtimeconfig.dev.json
+C:\temp\AaravMetai\bin\Debug\netcoreapp2.0\AaravMetai.dll
+C:\temp\AaravMetai\bin\Debug\netcoreapp2.0\AaravMetai.pdb
+C:\temp\AaravMetai\obj\Debug\netcoreapp2.0\AaravMetai.csproj.CoreCompileInputs.cache
+C:\temp\AaravMetai\obj\Debug\netcoreapp2.0\AaravMetai.AssemblyInfoInputs.cache
+C:\temp\AaravMetai\obj\Debug\netcoreapp2.0\AaravMetai.AssemblyInfo.cs
+C:\temp\AaravMetai\obj\Debug\netcoreapp2.0\AaravMetai.dll
+C:\temp\AaravMetai\obj\Debug\netcoreapp2.0\AaravMetai.pdb
