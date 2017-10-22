@@ -1,16 +1,211 @@
-﻿@{
-    ViewData["Title"] = "Flash";
-}
-
-
-<h2>@ViewData["Title"]</h2>
-
-
+﻿+@{
+ +    ViewData["Title"] = "About";
+ +}
+ +
+ +
+ +<h2>@ViewData["Title"]</h2>
+ +<h3>@ViewData["Message"]</h3>
+ +
+ +<p>Use this area to provide additional information.</p>
+ +<h1>Aarav is Beast</h1>
+ +
+ +<table border="1">
+ +    <tr>
+ +        <th>Aarav</th>
+ +        <th>Tanav</th>
+ +        <th>NOt Really</th>
+ +    </tr>
+ +    <tr>
+ +        <td>one</td>
+ +        <td>two</td>
+ +        <td>three</td>
+ +    </tr>
+ +    <tr>
+ +        <td>four</td>
+ +        <td>five</td>
+ +        <td>six</td>
+ +    </tr>
+ +
+ +<tr>
+ +    <td colspan=2>
+ +        seven
+ +    </td>
+ +    <td>eight</td>
+ +    <td rowspan=28>
+ +        nine
+ +    </td>
+ +    </tr>
+ +    <tr>
+ +    <td>ten</td>
+ +    <td>eleven</td>
+ +    <td>twelve</td>
+ +</tr>
+ +    <tr>
+ +    <td>Science</td>
+ +    <td>Maths</td>
+ +    <td rowspan=6>Social</td>
+ +</tr>
+ +</table>
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +
+ +<table>
+ +    <table border=1>
+ +    <tr>    
+ +        <th>  </th>
+ +        <th align=center>Sunday</th>
+ +        <th align=center>Monday</th>
+ +        <th align=center>Tuesday</th>
+ +        <th align=center>Wednesday</th>
+ +        <th align=center>Thursday</th>
+ +        <th align=center>Friday</th>
+ +        <th align=center>Saturday</th>
+ +    </tr>    
+ +    <tr>
+ +
+ +        <td align=center> <b>Morning </b></td>
+ +        <td rowspan=3 align=center>Play</td>
+ +        <td colspan=3 align=center>School</td>
+ +        <td colspan=2 align=center> PE</td>
+ +        <td align=center>Homework</td>
+ +    </tr>
+ +    <tr>
+ +        <td align=center> <b>Afternoon </b></td>
+ +        <td rowspan=2 colspan=2 align=center>Art</td>
+ +        <td colspan=3 align=center>Social</td>
+ +        <td align=center>Lunch</td>
+ +    </tr>
+ +    <tr>
+ +        <td  align=center><b> Evening </b></td>
+ +        <td colspan=3 align=center>Science</td>
+ +        <td align=center>Homework</td>
+ +    </tr>
+ +    <tr>
+ +        <td align=center> <b>  Night  </b></td>
+ +        <td colspan=7 align=center>Sleep</td>
+ +    </tr>
+ +
+ +    </table>
+ +
+ +
+ +
+ +
+ +<p>
+ +
+ +
+ +
+ +
+ +
+ +
+ + 
+ + <table>
+ +     <table border=1>
+ +         <th>Innings 1</td>
+ +         <th>Innings 2</td>
+ +         <th>Innings 3</td>
+ +         <th>Innings 4</td>
+ +         <th>Innings 5</td>
+ +         <th>Innings 6</td>
+ +         <th>Innings 7</td>
+ +         <th>Innings 8</td>
+ +         <th>Innings 9</td>
+ +         <th>Innings 10</td>
+ +    <tr>
+ +        <td>Run A</td>
+ +        <td>10</td>
+ +        <td>20</td>
+ +        <td>30</td>
+ +        <td>40</td>
+ +        <td>50</td>
+ +        <td>60</td>
+ +        <td>70</td>
+ +        <td>80</td>
+ +        <td>90</td>
+ +    </tr>   
+ +    <tr>
+ +        <td>Run B</td>
+ +        <td>10</td>
+ +        <td colspan=3 align=center bgcolor=red>20</td>
+ +        <td rowspan=4 align=center bgcolor=green>50</td>
+ +        <td>60</td>
+ +        <td>70</td>
+ +        <td>80</td>
+ +        <td>90</td>
+ +    </tr> 
+ +    <tr>
+ +        <td>Run C</td>
+ +        <td colspan=2  align=center bgcolor=purple>10</td>
+ +        <td>30</td>
+ +        <td>40</td>
+ +        <td>60</td>
+ +        <td>70</td>
+ +        <td>80</td>
+ +        <td>90</td>
+ +    </tr>
+ +    <tr>
+ +        <td>Run D</td>
+ +        <td>10</td>
+ +        <td>20</td>
+ +        <td colspan=2  align=center bgcolor=orange>30</td>
+ +        <td colspan=2 rowspan=3 align=center bgcolor=royalblue>60</td>
+ +        <td>80</td>
+ +        <td>90</td>
+ +    </tr>
+ +    <tr><td>Run E</td>
+ +        <td>10</td>
+ +        <td>20</td>
+ +        <td>30</td>
+ +        <td>40</td>
+ +        <td>50</td>
+ +        <td rowspan=3 align=center bgcolor=violet>60</td>
+ +    </tr>
+ +    <tr>
+ +        <td>Run F</td>
+ +        <td colspan=4 rowspan=2  align=center bgcolor=gray>10</td>
+ +        <td>50</td>
+ +        <td>60</td>
+ +    </tr>
+ +    <tr>
+ +        <td>Run G</td>
+ +        <td>10</td>
+ +        <td>20</td>
+ +        <td>30</td>
+ +        <td>40</td>
+ +    </tr>
+ +    <tr>
+ +        <td>Run H</td>
+ +        <td>10</td>
+ +        <td>20</td>
+ +        <td>30</td>
+ +        <td>40</td>
+ +        <td>50</td>
+ +        <td>60</td>
+ +        <td>70</td>
+ +        <td>80</td>     
+ +        <td>90</td>
+ +    </tr>   
+ + </table>
+ + </p>
+ +<img src="~/images/profile_thumb.jpg">
+ +<img src="~/images/Aarav1.JPG">
+ +
+ +<a href=/Home/Contact>Contact</a>
  
-<img src="~/images/profile_thumb.jpg">
-<img src="~/images/flash1.jpg">
-<img src="~/images/flash2.jpeg">
-<img src="~/images/flash3.png">
-<img src="~/images/flash4.jpg">
-<img src="~/images/flashsuit1.jpg">
-<img src="~/images/flashsuit2.jpg">
